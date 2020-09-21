@@ -1,0 +1,90 @@
+.footer
+{
+    padding: 20px 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.container 
+{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    padding: 16px 0;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.location > p
+{
+    line-height: 2em;   
+}
+
+.location > h3
+{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.location > h3::after
+{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 20%;
+    margin: 15px 0;
+    background-color: #fff;
+}
+
+.contact
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact > a
+{
+    display: flex;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    font-size: 12px;
+    color: black;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12px;
+    text-decoration: none;
+}
+
+.contact > a > span
+{
+    width: 90%;
+}
+
+.contact > a > img
+{
+    width: 10%;
+    margin-right: 10px;
+}
+
+.icons
+{
+    display: flex;
+}
+
+.icons > a 
+{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.icons > a > img
+{
+    margin-top: 5px;
+    height: 25px;
+}
